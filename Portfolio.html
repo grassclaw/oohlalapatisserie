@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./public/blog.css">
+    <link rel="stylesheet" href="./public/css/blog.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -52,10 +52,12 @@
             <i class="fa fa-remove"></i>
         </a>
         <div class="w3-bar-block w3-center">
-            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
-                onclick="closeNav()">Portfolio</a>
-            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+            <a href="https://shadowlaq.github.io/oohlalapatisserie/"
+                class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+            <a href="#biography" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Biography</a>
+            <a href="#subscribe" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Subscribe</a>
             <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
                 onclick="closeNav()">Contact</a>
         </div>
@@ -74,28 +76,26 @@
             <p>Authentic French Macaron Baker</p>
             <p>Creative Entrepreneur</p>
             <p>Mother</p>
-            <img src="./public/images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round"
+            <img src="./public/images/torsha_profile.png" class="w3-image w3-hide-large w3-hide-small w3-round"
                 style="display:block;width:60%;margin:auto;">
-            <img src="./public/images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round"
+            <img src="./public/images/torsha_profile.png" class="w3-image w3-hide-large w3-hide-medium w3-round"
                 width="1000" height="1333">
             <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
                 <!-- <i class="fa fa-download"></i>  -->
-                <a href="#about">View Biography</a>
+                <a href="#biography">View Biography</a>
             </button>
         </header>
 
         <!-- Portfolio Section -->
         <div class="w3-padding-32 w3-content" id="portfolio">
-            <h2 class="w3-text-grey">My Portfolio</h2>
+            <h2 class="w3-text-grey">My Family</h2>
             <hr class="w3-opacity">
 
             <!-- Grid for photos -->
             <div class="w3-row-padding" style="margin:0 -16px">
                 <div class="w3-half">
                     <img src="./public/images/gold.png" style="width:100%">
-
                     <img src="./public/images/booth.jpg" style="width:100%">
-
                     <img src="./public/images/wedding.jpg" style="width:100%">
                     <img src="./public/images/tower.png" style="width:100%">
 
@@ -112,9 +112,9 @@
             <!-- End Portfolio Section -->
         </div>
 
-        <!-- About Section -->
-        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-            <h2>About</h2>
+        <!-- biography Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="biography">
+            <h2>Biography</h2>
             <hr class="w3-opacity">
             <p>To the frustration of her teachers, Torsha was a dreamer. Eight years ago she decided to take the
                 creativity wandering in her mind and apply it to paper. Since then, she has completed four books and is
@@ -183,7 +183,7 @@
             </p><br>
 
             <!-- Grid for pricing tables -->
-            <h3 class="w3-padding-16">My Price</h3>
+            <h3 class="w3-padding-16" id="subscribe">My Price</h3>
             <div class="w3-row-padding" style="margin:0 -16px">
                 <div class="w3-half w3-margin-bottom">
                     <ul class="w3-ul w3-center w3-card w3-hover-shadow">
@@ -221,7 +221,7 @@
                 <!-- End Grid/Pricing tables -->
             </div>
 
-            <!-- End About Section -->
+            <!-- End biography Section -->
         </div>
 
         <!-- Contact Section -->
